@@ -9,7 +9,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => (
   <>
     <Header />
-    <main className="mt-16 h-screen w-screen flex-1 bg-gradient-to-r from-cyan-500 to-blue-500">
+    <main className="mx-auto mt-16 w-screen max-w-screen-2xl flex-1 px-2 sm:px-20 2xl:px-10">
       {children}
     </main>
     <Footer />
