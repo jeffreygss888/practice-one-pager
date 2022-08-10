@@ -2,8 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  a {
+    @apply outline-none ring-sky-700 ring-offset-2 ring-offset-white focus-visible:ring-2;
+  }
+
+  button {
+    @apply outline-none ring-sky-700 ring-offset-2 ring-offset-white focus-visible:ring-2;
+  }
+}
+
+@layer components {
+  .ring-focus {
+    @apply outline-none ring-sky-700 ring-offset-2 ring-offset-white focus-visible:ring-2;
+  }
+}
+
 html {
-  box-sizing: border-box;
-  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
 }
