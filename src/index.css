@@ -10,6 +10,10 @@
   button {
     @apply outline-none ring-sky-700 ring-offset-2 ring-offset-white focus-visible:ring-2;
   }
+
+  body {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+  }
 }
 
 @layer components {
