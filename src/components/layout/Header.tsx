@@ -70,7 +70,7 @@ const Header = () => {
         <ul className="flex h-full items-center justify-center gap-10">
           <li>
             <a
-              className="text-gray-800 hover:text-gray-700 hover:underline focus:underline active:underline"
+              className="text-slate-100 hover:text-slate-300 hover:underline focus:text-slate-300 focus:underline active:text-slate-300 active:underline"
               href="/"
             >
               Home
@@ -78,7 +78,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className="text-gray-800 hover:text-gray-700 hover:underline focus:underline active:underline"
+              className="text-slate-100 hover:text-slate-300 hover:underline focus:text-slate-300 focus:underline active:text-slate-300 active:underline"
               href="/products"
             >
               Products
@@ -86,7 +86,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className="text-gray-800 hover:text-gray-700 hover:underline focus:underline active:underline"
+              className="text-slate-100 hover:text-slate-300 hover:underline focus:text-slate-300 focus:underline active:text-slate-300 active:underline"
               href="/about-us"
             >
               About us
@@ -94,7 +94,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className="text-gray-800 hover:text-gray-700 hover:underline focus:underline active:underline"
+              className="text-slate-100 hover:text-slate-300 hover:underline focus:text-slate-300 focus:underline active:text-slate-300 active:underline"
               href="/contact-us"
             >
               Contact Us
